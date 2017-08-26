@@ -5,6 +5,8 @@ var http = require('http').Server(app);
 var io = require('socket.io')(http);
 var exports = module.exports = {};
 
+var port = process.env.PORT || 3000;
+
 app.get('/', function(req, res){
   res.send('<p>The React chat server</p>');
 });
@@ -15,8 +17,6 @@ io.on('connection', function(socket){
   });
 });
 
-http.listen(3000, function(){
-  console.log('listening on '+exports.api);
+http.listen(port, function(){
+  console.log('listening on '+port);
 });
-
-exports.api = 'http://localhost:3000';
