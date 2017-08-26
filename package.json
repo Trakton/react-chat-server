@@ -1,0 +1,29 @@
+{
+  "name": "react-chat-server",
+  "version": "1.0.0",
+  "description": "The server side to host react-chat",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.15.4",
+    "socket.io": "^2.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Trakton/react-chat-server.git"
+  },
+  "keywords": [
+    "react",
+    "messenger",
+    "server"
+  ],
+  "author": "Higor Cavalcanti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Trakton/react-chat-server/issues"
+  },
+  "homepage": "https://github.com/Trakton/react-chat-server#readme"
+}
